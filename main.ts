@@ -7,7 +7,6 @@
 
 // start code
 input.onButtonPressed(Button.A, function () {
-
   // Red
   pins.digitalWritePin(DigitalPin.P16, 0)
   basic.showString('red')
